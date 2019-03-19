@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
 <link rel="stylesheet" href="css/style.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="icon" href="img/ico.png" type="image/png" />
 
 <title>Mamoun Kubur | Portfolio</title>
@@ -44,7 +45,7 @@
     </nav>
     <img src="img/bg11.png" style="z-index:-1;position:absolute; width: 100%;" alt="">
 
-    <div class="container" style="padding-top:13%;" id="about">
+    <div class="container" style="padding-top:13%;" id="about" data-aos="fade-up">
         <div class="row">
             <div class="col-md-3">
                 <img class="rounded shadow" src="img/me.png" alt="">
@@ -61,9 +62,9 @@
     </div>
     <img src="img/bg12.png" style="z-index:-1;position:absolute; width: 100%;margin-top: 15%;" alt="">
 
-    <div class="container" style="padding-top:13%;" id="work">
+    <div class="container" style="padding-top:13%;" id="work" data-aos="fade-up">
 
-        <div class="row">
+        <div class="row" data-aos="fade-up">
             <div class="col-md-12  -center">
                     <p class=" display-4">Some Of My Projects</p>
                     <hr class="my-4">                
@@ -71,7 +72,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-aos="fade-up">
 
             <div class="col-sm-4">
                 <div class="card shadow">
@@ -112,7 +113,7 @@
 
     </div>
 
-    <div class="container mt-4">
+    <div class="container mt-4" data-aos="fade-up">
             <p class="display-4">Some Of My Designs</p>
 
     </div>
@@ -122,7 +123,7 @@
 
     <!-- required bootstrap js -->
     <!-- add 'carousel-slider' snippet in css -->
-    <div id="demo" class="carousel slide mt-4" data-ride="carousel">
+    <div id="demo" class="carousel slide mt-4" data-ride="carousel" data-aos="fade-up">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="img/wd.png" alt="">
@@ -155,7 +156,7 @@
 
 
     <img src="img/bg11.png" style="z-index:-1;position:absolute; width: 100%;margin-top: 1%;" alt="">
-    <div class="container" style="margin-top:7%;" id="skills">
+    <div class="container" style="margin-top:7%;" id="skills" data-aos="fade-up">
 
         <div class="row">
             <div class="col-md-12  -center">
@@ -335,6 +336,10 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
 
